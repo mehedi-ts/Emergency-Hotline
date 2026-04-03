@@ -81,11 +81,7 @@ document
       totalCoinCount = totalCoinCount - 20;
       totalCoin.innerHTML = totalCoinCount;
 
-
-    //   display history container
-      displayHistorySection();
+      //   display history container
+      displayHistorySection(serviceName, serviceNumber);
     }
-
-});
-
-function displayHistorySection() {}
+  });
